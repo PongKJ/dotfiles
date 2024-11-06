@@ -6,10 +6,10 @@
 export DOTFILES="$HOME/.dotfiles"
 
 # your project folder that we can `c [tab]` to
-export PROJECTS="$HOME/Code"
+export PROJECTS="$HOME/Project"
 
 # your default editor
-export EDITOR='vim'
+export EDITOR='nvim'
 export VEDITOR='code'
 
 # all of our zsh files
@@ -49,3 +49,5 @@ unset config_files updated_at
 [ -f ~/.localrc ] && . ~/.localrc
 
 # zprof
+
+PATH=~/.console-ninja/.bin:$PATH
