@@ -50,4 +50,3 @@ unset config_files updated_at
 
 # zprof
 
-PATH=~/.console-ninja/.bin:$PATH
