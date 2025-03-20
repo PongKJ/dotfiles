@@ -7,6 +7,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 eval $(thefuck --alias)
 
-PATH=~/.console-ninja/.bin:$PATH
-
 eval "$(fnm env --use-on-cd --shell zsh)"
+
+export PATH=~/.console-ninja/.bin:$PATH
+export PATH=/home/pkj/.cargo/bin:$PATH
+export PATH=/home/pkj/.local/bin:$PATH
