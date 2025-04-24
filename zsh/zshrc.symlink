@@ -51,3 +51,8 @@ unset config_files updated_at
 # zprof
 
 PATH=~/.console-ninja/.bin:$PATH
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/pkj/.config/.dart-cli-completion/zsh-config.zsh ]] && . /home/pkj/.config/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

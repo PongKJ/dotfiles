@@ -9,6 +9,7 @@ eval $(thefuck --alias)
 
 eval "$(fnm env --use-on-cd --shell zsh)"
 
-export PATH=~/.console-ninja/.bin:$PATH
-export PATH=/home/pkj/.cargo/bin:$PATH
-export PATH=/home/pkj/.local/bin:$PATH
+# Android SDK
+export ANDROID_SDK_HOME=/home/pkj/SDK/Android
+
+export PATH=/home/pkj/.cargo/bin:/home/pkj/SDK/flutter/bin:/home/pkj/.local/bin:$ANDROID_SDK_HOME/cmdline-tools/latest/bin:$PATH
